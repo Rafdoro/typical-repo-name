@@ -10,4 +10,7 @@ root to: 'visitors#index'
   resources :teachers do
     get :subjects
   end
+
+  resources :report_subjects
+
 end
